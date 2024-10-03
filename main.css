@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(to right, white, #EAEAEA);
+    color: ivory;
+}
+
+.name{
+    color:black;
+    font-size: bold;
+    font-weight: 900;
+}
+
+.head{
+    background-image: radial-gradient(white, #71C9CE);
+}
+
+.text-uppercase{
+    color: darkslateblue;
+    font-size: bold;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.quote{
+    color: #497174;
+    font-weight: 450;
+    font-size: 2rem;
+}
+
+.topic{
+    margin-bottom: 35px;
+    color: #332941;
+}
+
+.res{
+    margin-top: 50px;
+}
+
+.about{
+    color: #4F4557;
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.imp{
+    color: #5B8FB9;
+    font-weight: 700;
+}
+
+.resumeup{
+    margin-top: 30px;
+}
+
+.mainsection{
+    background-color: darkgray;
+    background-image: linear-gradient(to right, #F9F7F7, #A6E3E9);
+}
+
+.mainh1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3C3D37;
+}
+
+.mainh2{
+    color: black;
+    margin-bottom: 10px;
+}
+
+.mainp{
+    color: black;
+}
+
+.resbody{
+    text-align: center;
+}
+
+.nameres{
+    color: darkblue;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.resedu{
+    margin-top: 80px;
+}
+
+.edudiv{
+    font-weight: 600;
+}
+
+.mainres{
+    background-color: darkgray;
+    background-image: linear-gradient(to right, white, #CBF1F5);
+}
+
+.expname{
+    margin-top: 70px;
+}
+
+.expdiv{
+    font-size: 1rem;
+}
+
+.expsec{
+    background-color: darkgray;
+    background-image: linear-gradient(to right, white, #CBF1F5);
+}
+
+.conmain{
+    margin-top: 30px;
+}
+
+.onename{
+    color: black;
+}
+
+.foot{
+    position: relative;
+    bottom: 0;
+}
+
+.downres{
+    margin-top: 30px;
+}
+
+
+

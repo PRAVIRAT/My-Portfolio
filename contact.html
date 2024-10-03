@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="same">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary gradiant-background head">
+            <div class="container-fluid">
+              <a class="navbar-brand name" href="#">PRAVEEN G M</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="resume.html">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="workexperience.html">Work Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                  </li>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </header>
+
+    <main>
+        <div class=" rounded-4 py-5 px-4 px-md-5 col-8 container conmain conback">
+
+            <div class="text-center mb-5">
+                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                <h1 class="fw-bolder onename">Get in touch</h1>
+                <p class="lead fw-normal text-muted mb-0 ">Let's work together!</p>
+            </div>
+    
+            <div class="row gx-5 justify-content-center ">
+    
+                <div class="col-lg-8 col-xl-6">
+    
+                    <form action="/submit" method="POST" id="contactForm">
+    
+                        <!-- Name input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control clicked" id="name" name="name" type="text" placeholder="Enter your name..." required="" fdprocessedid="3yjffh">
+                            <label for="name" class="onename">Full name</label>
+                        </div>
+                    
+                        <!-- Email address input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control clicked" id="email" name="email" type="email" placeholder="name@example.com" required="" fdprocessedid="g5w2z4">
+                            <label for="email" class="onename">Email address</label>
+                        </div>
+                    
+                        <!-- Phone number input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control clicked" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" fdprocessedid="jxq9r">
+                            <label for="phone" class="onename">Phone number</label>
+                        </div>
+                    
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control clicked" id="message" name="message" type="text" placeholder="Enter your message here..." style="height: 10rem" required=""></textarea>
+                            <label for="message" class="onename">Message</label>
+                        </div>
+                    
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary do" fdprocessedid="xcnjdn">Submit</button>
+                    
+                    </form>
+                    
+    
+                </div>
+    
+                <!-- <div class="d-grid"><button class="btn btn-primary btn-lg" id="submitButton"
+                        type="submit">Send</button>
+                </div> -->
+    
+            </div>
+    
+        </div>
+    </main>
+
+    <footer class="bg-dark py-4 mt-auto ">
+      <div class="container px-5 footalign">
+          <div class="row align-items-center justify-content-between flex-column flex-sm-row">               
+              <div class="col-auto">
+                  <div class="small m-0 text-white">Copyright © <span class="year"></span> - <a href="https://github.com/PRAVIRAT" target="_blank" style="text-decoration: none;">Praveen</a> - All Rights Reserved.</div>
+              </div>
+              <div class="col-auto">
+                  <span class="mx-1 text-white">·</span>
+                  <a class="small text-white" href="https://www.instagram.com/im_gm_prav" target="_blank" style="text-decoration: none;">Instagram</a>
+                  <span class="mx-1 text-white">·</span>
+                  <a class="small text-white" href="https://www.linkedin.com/in/g-m-praveen-515433295" target="_blank" style="text-decoration: none;">LinkedIn</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
